@@ -16,7 +16,7 @@ class ReadFromFile
         // Example #2
         // Leia cada linha do arquivo em uma matriz de seqüência de caracteres. Cada elemento
         //Da matriz é uma linha do arquivo.
-        string[] lines = File.ReadAllLines(@"E:\Desktop\CTI\Sala de provas\gararitos errados\3º ano C.dat");
+        string[] lines = File.ReadAllLines(@"BTI1MA.txt");
 
 
         // Exibir o conteúdo do arquivo usando um loop foreach.
@@ -24,13 +24,15 @@ class ReadFromFile
         {
             // Use uma guia para recuar cada linha do arquivo.
             //Console.WriteLine("\t" + line);
+
+           var alciomar =  Regex.Split(line, @"	");
             
             var aux = Regex.Match(line.Substring(0, 7), @"\d+");
             var qtd = aux.Length;
             try
             {
                 //Abrir o arquivo
-                StreamWriter valor = new StreamWriter("E:\\Desktop\\CTI\\Sala de provas\\gabaritos transformados\\3º ano C.dat", true, Encoding.ASCII);
+                StreamWriter valor = new StreamWriter("BTI1MA_RESULT.txt", true, Encoding.ASCII);
                 switch (qtd)
                 {
                     case 1:
@@ -72,6 +74,6 @@ class ReadFromFile
 
         }
 
-        Console.ReadKey();
+        //Console.ReadKey();
     }
 }

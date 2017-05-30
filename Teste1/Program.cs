@@ -11,6 +11,7 @@ class ReadFromFile
         // Os arquivos usados neste exemplo são criados no tópico
         // Como: Gravar em um arquivo de texto. Você pode alterar o caminho e
         // Arquivo para substituir arquivos de texto do seu próprio.
+        // Dany não sei
 
         // Example #2
         // Leia cada linha do arquivo em uma matriz de seqüência de caracteres. Cada elemento

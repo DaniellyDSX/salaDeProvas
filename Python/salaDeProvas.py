@@ -1,3 +1,8 @@
+
+### Programa para ajustar RA dos alunos para importação do SIGA
+### @@UNASP-HT
+### by Alciomar e Dany
+
 import glob
 
 for file in glob.glob('*.txt'):

@@ -37,3 +37,6 @@ E:\Desktop\CTI\Sala de provas\programa pronto\Teste1\obj\Debug\Teste1.csprojReso
 E:\Desktop\CTI\Sala de provas\programa pronto II\Teste1\bin\Debug\Teste1.exe.config
 E:\Desktop\CTI\Sala de provas\programa pronto II\Teste1\obj\Debug\Teste1.exe
 E:\Desktop\CTI\Sala de provas\programa pronto II\Teste1\obj\Debug\Teste1.pdb
+E:\Desktop\CTI\Sala de provas\programa pronto II\Teste1\bin\Debug\Teste1.exe
+E:\Desktop\CTI\Sala de provas\programa pronto II\Teste1\bin\Debug\Teste1.pdb
+E:\Desktop\CTI\Sala de provas\programa pronto II\Teste1\obj\Debug\Teste1.csprojResolveAssemblyReference.cache

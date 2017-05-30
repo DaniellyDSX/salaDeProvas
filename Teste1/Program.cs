@@ -23,6 +23,8 @@ class ReadFromFile
         {
             // Use uma guia para recuar cada linha do arquivo.
             //Console.WriteLine("\t" + line);
+
+           var alciomar =  Regex.Split(line, @"	");
             
             var aux = Regex.Match(line.Substring(0, 7), @"\d+");
             var qtd = aux.Length;

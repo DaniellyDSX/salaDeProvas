@@ -1,0 +1,1 @@
+pyinstaller salaDeProvas.py -i unasp_bola.ico --onefile
